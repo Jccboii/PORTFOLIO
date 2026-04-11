@@ -99,6 +99,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 background: #0c0e15;
                 border: 1px solid rgba(255, 255, 255, 0.06);
             }
+
+            .black {
+                background: #0c0e15;
+                border: 1px solid rgba(255, 255, 255, 0.06);
+                color: white;
+            }
             
         </style>
     </head>
@@ -184,16 +190,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             <h3>DASHBOARD</h3>
 
             <div style="margin-bottom: 15px;">
-                <button onclick="changeGallery(0)">Quizzes</button>
-                <button onclick="changeGallery(1)">Lab Works</button>
-                <button onclick="changeGallery(2)">Major Exam</button>
+                <button class="black" onclick="changeGallery(0)">Quizzes</button>
+                <button class="black" onclick="changeGallery(1)">Lab Works</button>
+                <button class="black" onclick="changeGallery(2)">Major Exam</button>
             </div>
 
             <h4 id="galleryTitle">Gallery 1</h4>
             <p id="imageTitle" style="color:#9e9e9e;">Image 1</p>
 
             <div class="mai" style="padding:20px; width:400px;">
-                <img id="galleryImage" src="https://via.placeholder.com/400x250" style="width:100%;">
+                <img id="galleryImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReiKeTsm26jLOx1RQhXGkRSPWNj2tCeMKdUA&s" style="width:100%;">
             </div>
 
             <div style="margin-top:10px;">
